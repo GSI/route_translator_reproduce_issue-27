@@ -1,0 +1,20 @@
+h1. Rake Test
+
+<pre>
+# rake test
+[deprecated] I18n.enforce_available_locales will default to true in the future. If you really want to skip validation of your locale you can set I18n.enforce_available_locales = false to avoid this message.
+Run options: --seed 250
+
+Running tests:
+
+E
+
+Finished tests in 0.042198s, 23.6979 tests/s, 0.0000 assertions/s.
+
+  1) Error:
+UsersControllerTest#test_should_get_new:
+NameError: undefined local variable or method `users_path' for #<UsersControllerTest:0x000000045451b0>
+    test/controllers/users_controller_test.rb:5:in `block in <class:UsersControllerTest>'
+
+1 tests, 0 assertions, 0 failures, 1 errors, 0 skips
+</pre>
