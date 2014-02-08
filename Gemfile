@@ -45,6 +45,8 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'devise'
-gem 'route_translator', '~> 3.1.0'
+#gem 'route_translator', '~> 3.1.0'
 #gem 'route_translator', :github => 'enriclluelles/route_translator'
 #gem 'route_translator', :github => 'astjohn/route_translator'
+#gem 'route_translator', git: 'https://github.com/astjohn/route_translator.git', branch: 'fix_rendered_paths'
+gem 'route_translator', :github => 'mohamagdy/route_translator', :branch => 'unit_tests_routes_without_locale'
